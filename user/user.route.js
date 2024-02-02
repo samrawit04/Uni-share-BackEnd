@@ -1,5 +1,5 @@
 const router = require("express").Router();
-
+// importing functions 
 const { adduser,login, getuserbyid,update } = require("./user.controller");
 const auth=require("../middleware/auth")
 
